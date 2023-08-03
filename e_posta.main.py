@@ -29,7 +29,7 @@ def send_email(sender_email, sender_password, receiver_email, subject, message):
     except Exception as e:
         print("E-posta gönderme hatası:", str(e))
 
-
+#e_postayı altaki kısma girin
     server.quit()
 if __name__ == "__main__":
     sender_email = input("e_mailiniz: ")
